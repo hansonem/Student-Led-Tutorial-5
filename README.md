@@ -45,7 +45,9 @@ We will use publicly available genome sequences of **respiratory viruses** or mi
    ```bash
    mkdir -p raxml_tutorial && cd raxml_tutorial
 2. Place the downloaded viral genome FASTA files in the directory.
-3. Perform multiple sequence alignment using MAFFT:
+   ```bash
+   wget coppied_link_from_repository
+4. Perform multiple sequence alignment using MAFFT:
    ```bash
    mafft --auto --reorder virus_genomes.fasta > aligned_genomes.fasta
 - `auto`: Automatically selects the appropriate alignment strategy.
