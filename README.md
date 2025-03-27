@@ -1,6 +1,6 @@
 # Student-Led-Tutorial-5
 # Task: Phylogenetic Tree Construction Using RAxML
-# Date: March 27th
+# Date: April 3rd
 
 ## **Objective**
 Students will:
@@ -25,16 +25,28 @@ Students will:
    - [FigTree Download](http://tree.bio.ed.ac.uk/software/figtree/)
 
 ---
+## Install MAFFT
+```
+module load anaconda3
+```
+```
+conda create -n mafft-env -c bioconda mafft
+```
+```
+conda activate mafft-env
+```
+- test by typing:
+```
+mafft --version
+```
+- Output should be `v7.505 (2022/Apr/10)`
 
 ## **Dataset Description**
 ### Dataset: Virus Genome Sequences (Just an example, you can also use bacterial genomes, mitochondrial or chloroplast genomes as well)
 We will use publicly available genome sequences of **respiratory viruses** or mitochondrial genomes as an example.  
 - **Download Source**: NCBI Virus Database ([https://www.ncbi.nlm.nih.gov/labs/virus/](https://www.ncbi.nlm.nih.gov/labs/virus/)).
-- Example genomes:
+- For these tutorial we will focus on the:
   - Influenza virus.
-  - Respiratory syncytial virus (RSV).
-  - SARS-CoV-2.
-  - Other respiratory viruses of your choice.
 - Format: FASTA.
 
 ---
