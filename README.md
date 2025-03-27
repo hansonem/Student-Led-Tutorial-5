@@ -38,10 +38,6 @@ We will use publicly available genome sequences of **respiratory viruses** or mi
 - Format: FASTA.
 
 ---
-## **Enter the HPC**
-```bash
-ssh username@bridges2.psc.edu
-
 ### **Tasks and Deliverables**
 ### **Part 1: Multiple Sequence Alignment**
 1. Create a directory for the analysis:
